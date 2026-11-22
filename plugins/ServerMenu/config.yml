@@ -1,0 +1,28 @@
+item:
+  material: COMPASS
+  slot: 8
+  name: "§aサーバーメニュー"
+  lore:
+    - "§7右クリックでメニューを開く"
+  custom-model-data: 0
+
+spawn:
+  world: "world"
+  x: -30
+  y: 44
+  z: -132
+  yaw: 0
+  pitch: 0
+
+speed:
+  normal: 0.2
+  fast: 0.35
+
+messages:
+  no-permission: "§c権限がありません"
+  menu-open: "§aメニューを開きました"
+  speed-fast: "§a移動速度を上げました"
+  speed-normal: "§e移動速度を通常に戻しました"
+  teleport-spawn: "§a初期地点へ移動しました"
+  reloaded: "§a設定を再読み込みしました"
+  item-given: "§aメニューアイテムを付与しました"
